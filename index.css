@@ -1,0 +1,68 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg-color: #fff;
+  --secondary-bg-color: #fafafa;
+  --heading-color: #00a1e0;
+  --secondary-heading-color: #00a1e0;
+  --third-bg-color: #042e61;
+  --gradient-background: linear-gradient(315deg, #4e21bb 0%, #8517c7 80%);
+  --secondary-gradient-background: linear-gradient(
+    315deg,
+    #f8ac70 0%,
+    #f8ac70 80%
+  );
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--main-bg-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.alternate-bg1 {
+  background-color: var(--secondary-bg-color);
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.alternate-bg2 {
+  background-color: var(--main-bg-color);
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.servicesDropdown div.dropdown-menu.show {
+  z-index: -1;
+}
+
+p {
+  font-size: 16px;
+}
+
+a {
+  color: inherit;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  color: inherit;
+}
